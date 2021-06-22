@@ -23,7 +23,7 @@ def send():
     )
 
 @app.route('/bot', methods=['POST'])
-def bot2():
+def bot():
     incoming_msg = request.values.get("Body", "").lower()
     resp = MessagingResponse()
     msg = resp.message()
