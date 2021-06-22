@@ -1,6 +1,6 @@
 # Covid FAQ Chatbot
 #### Video Demo:  <URL HERE>
-#### Description: This project aims to create a bot to help people with FAQ about COVID-19
+#### Description: This project aims to create a bot to help people with FAQ about COVID-19. Information taken from WHO
   
 ## Topics
 * [Requirements](#requirements)
