@@ -5,3 +5,6 @@ twilio
 requests
 gunicorn
 psycopg2
+tensorflow
+keras
+nltk
