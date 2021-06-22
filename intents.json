@@ -1,0 +1,88 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "how_are_you",
+         "patterns": ["How are you"],
+         "responses": ["Fine! thanks for asking"],
+         "context": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help with some questions regarding COVID-19"],
+         "context": [""]
+        },
+        {"tag": "What_is_COVID",
+         "patterns": ["What is COVID?", "What is COVID?", "What is COVID?", "covid"],
+         "responses": ["COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2. WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of 'viral pneumonia' in Wuhan, People's Republic of China."],
+         "context": [""]
+        },
+        {"tag": "How_is_COVID_transmitted",
+         "patterns": ["How is COVID transmitted", "COVID transmitted"],
+         "responses": ["People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth, which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, and then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets."],
+         "context": [""]
+        },
+        {"tag": "Can_adolescents_catch_COVID",
+         "patterns": ["Can adolescents catch COVID?", "Can adolescents catch COVID?"],
+         "responses": ["Yes. All age groups can catch COVID-19. \nWhile we are still learning about how COVID-19 affects people, so far, data suggests that children under the age of 18 years have few deaths compared to other age groups and usually mild disease. However, cases of critical illness have been reported. As with adults, pre-existing medical problems like high blood pressure, heart and lung problems, asthma, diabetes, obesity, cancer and neurological and developmental conditions are risk factors for severe disease and intensive care admission in children."],
+         "context": [""]
+        },
+        {"tag": "How_does_COVID_spread_between_people",
+         "patterns": ["How does COVID spread between people?"],
+         "responses": ["We know that the disease is caused by the SARS-CoV-2 virus, which spreads between people in several different ways.The virus can spread from an infected person's mouth or nose in small liquid particles when they cough, sneeze, speak, sing or breathe. These particles range from larger respiratory droplets to smaller aerosols."],
+         "context": [""]
+        },
+        {"tag": "Are_there_treatments_for_COVID",
+         "patterns": ["Are there treatments for COVID?", "treatments COVID"],
+         "responses": ["Scientists around the world are working to find and develop treatments for COVID-19. Optimal supportive care includes oxygen for severely ill patients and those who are at risk for severe disease and more advanced respiratory support such as ventilation for patients who are critically ill. Dexamethasone is a corticosteroid that can help reduce the length of time on a ventilator and save lives of patients with severe and critical illness."],
+         "context": [""]
+        },
+        {"tag": "Is_there_a_vaccine_for_COVID",
+         "patterns": ["Is there a vaccine for COVID?"],
+         "responses": ["Yes. The first mass vaccination programme started in early December 2020 and the number of vaccination doses administered is updated on a daily basis https://covid19.who.int/. At least 13 different vaccines (across 4 platforms) have been administered. Campaigns have started in 206 economies."],
+         "context": [""]
+        },
+        {"tag": "Can_probiotics_help_prevent_COVID",
+         "patterns": ["Can probiotics help prevent COVID?","probiotics COVID"],
+         "responses": ["No. Probiotics are live microorganisms that are generally added to foods or used as a supplement to the diet to confer a health benefit. However, there is currently no evidence to support the use of probiotics to help prevent or cure COVID-19."],
+         "context": [""]
+        },
+        {"tag": "What_are_the_symptoms_of_COVID",
+         "patterns": ["What are the symptoms of COVID?","symptoms COVID"],
+         "responses": ["The most common symptoms of COVID-19 are Fever, Dry cough, Fatigue. Other symptoms that are less common and may affect some patients include: Shortness of breath, Loss of appetite, Confusion, Persistent pain or pressure in the chest, High temperature (above 38 °C)."],
+         "context": [""]
+        },
+        {"tag": "Who_should_get_the_COVID_vaccines",
+         "patterns": ["Who should get the COVID vaccines?", "who should be vaccinated"],
+         "responses": ["The COVID-19 vaccines are safe for most people 18 years and older, including those with pre-existing conditions of any kind, including auto-immune disorders. These conditions include: hypertension, diabetes, asthma, pulmonary, liver and kidney disease, as well as chronic infections that are stable and controlled. If supplies are limited in your area, discuss your situation with your care provider if you: Have a compromised immune system, Are pregnant or nursing your baby, Have a history of severe allergies, particularly to a vaccine (or any of the ingredients in the vaccine), Are severely frail"],
+         "context": [""]
+        },
+        {"tag": "What_happens_to_people_who_get_COVID",
+         "patterns": ["What happens to people who get COVID?"],
+         "responses": ["Among those who develop symptoms, most (about 80%) recover from the disease without needing hospital treatment. About 15% become seriously ill and require oxygen and 5% become critically ill and need intensive care.\nComplications leading to death may include respiratory failure, acute respiratory distress syndrome (ARDS), sepsis and septic shock, thromboembolism, and/or multiorgan failure, including injury of the heart, liver or kidneys. \nIn rare situations, children can develop a severe inflammatory syndrome a few weeks after infection."],
+         "context": [""]
+        },
+        {"tag": "Antibiotics_effective_in_preventing_or_treating_COVID",
+         "patterns": ["Are antibiotics effective in preventing or treating COVID?"],
+         "responses": ["Antibiotics do not work against viruses; they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. In hospitals, physicians will sometimes use antibiotics to prevent or treat secondary bacterial infections which can be a complication of COVID-19 in severely ill patients. They should only be used as directed by a physician to treat a bacterial infection."],
+         "context": [""]
+        }
+   ]
+}

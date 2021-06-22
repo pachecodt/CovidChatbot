@@ -1,0 +1,7 @@
+cs50
+Flask
+Flask-Session
+twilio
+requests
+gunicorn
+psycopg2
