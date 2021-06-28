@@ -16,11 +16,15 @@
 ### How to use
   
 Local: After installing the dependencies, you can download [Ngrok](https://ngrok.com/download). This way you can exposes your local servers for the world.
-Use the ngrok link for your bot. 
+Use the ngrok link for your bot.
+>Example:
+>```
+>ngrok http 5000
+>```
 
   
 ### Run
->Before runing your Chat.py. First, train model whenever you want after updating intent file.
+>If you've change the model. Before runing your Chat.py, first, train the model. You can train it whenever you want after updating intent file.
 >```
 >python train_chatbot.py
 >```
