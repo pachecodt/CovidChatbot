@@ -14,6 +14,8 @@
 This project should be used to answer questions regarding COVID.
 Information base used: WHO(World Health Organization).
 
+![](https://img.shields.io/badge/Python-%23f0db4f)
+
 ![image](https://user-images.githubusercontent.com/18306550/123686425-b3750380-d847-11eb-87eb-e2d45ada5f0e.png)
 
 
