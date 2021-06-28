@@ -24,7 +24,7 @@ Use the ngrok link for your bot.
 
   
 ### Run
->Before runing your Chat.py. First, train model whenever you want after updating intent file.
+>If you've change the model. Before runing your Chat.py, first, train the model. You can train it whenever you want after updating intent file.
 >```
 >python train_chatbot.py
 >```
