@@ -7,7 +7,7 @@
 * [Requirements](#requirements)
 * [How to use](#how-to-use)
 * [Run](#run)
-* [To Do](#to-do)
+* [Possible improvements](#possible-improvements)
 * [Contributing](#contributing)
 
 
@@ -18,9 +18,15 @@ Information base used: WHO(World Health Organization).
 Many people do not have up-to-date information about covid.In this case you can chat with this bot as if you would do to a close friend.
 You can see a sample conversation in the image below:
 
-![](https://img.shields.io/badge/Python-%23f0db4f)
-
 ![image](https://user-images.githubusercontent.com/18306550/123686425-b3750380-d847-11eb-87eb-e2d45ada5f0e.png)
+
+Tech: 
+
+- Python
+- Keras
+- nltk
+- numpy
+- other small libraries or packages
 
 
 ### Requirements
@@ -40,7 +46,7 @@ The same principle applies to Chatbot with discord, slack or any other.
   
 Local: After installing the dependencies, you can download [Ngrok](https://ngrok.com/download). This way you can exposes your local servers for the world.
 Use the ngrok link for your bot.
->Example:
+Example:
 >```
 >ngrok http 5000
 >```
@@ -48,7 +54,9 @@ Use the ngrok link for your bot.
   
 ### Run
 
-If you've change the model. Before runing your Chat.py, first, train the model. You can train it whenever you want after updating intent file.
+If you have change the model. Before runing your Chat.py, first, train the model. You can train it whenever you want after updating intent.json file.
+
+Train:
 >```
 >python train_chatbot.py
 >```
@@ -58,10 +66,13 @@ Than run the application
 >python bot.py
 >```
 
-### To Do
+### Possible improvements
 
-Improve model.
-Add answer to number of daily cases.
+As all applications this one need to be improved. Possible improvements:
+
+- Continue to improve the model
+- Add answer to number of daily cases.
+- Add number of people vaccinated.
   
 ### Contributing
 ------------
