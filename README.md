@@ -1,12 +1,21 @@
 # Covid FAQ Chatbot
-#### Video Demo:  <URL HERE>
+#### Video Demo:
 #### Description: This project aims to create a bot to help people with FAQ about COVID-19. Information taken from WHO
   
 ## Topics
+* [Information](#information)
 * [Requirements](#requirements)
 * [How to use](#how-to-use)
 * [Run](#run)
 * [Contributing](#contributing)
+
+
+### Information
+This project should be used to answer questions regarding COVID.
+Information base used: WHO(World Health Organization).
+
+![image](https://user-images.githubusercontent.com/18306550/123686425-b3750380-d847-11eb-87eb-e2d45ada5f0e.png)
+
 
 ### Requirements
 >```
