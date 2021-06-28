@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "TWILIO_ACCOUNT_SID" : "ACaf1b9ba1912103bc12abcf38796630d1",
+                "TWILIO_AUTH_TOKEN" : "f117f6e0aa7bc44cdd8ae29c0c35ad4f"
+            }
+        }
+    ]
+}
