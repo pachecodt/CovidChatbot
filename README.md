@@ -1,5 +1,4 @@
 # Covid FAQ Chatbot
-#### Video Demo:
 #### Description: This project aims to create a bot to help people with FAQ (Frequently Asked Questions) about COVID-19. Information taken from security source [WHO](https://www.who.int/) (World Health Organization)
   
 ## Topics
