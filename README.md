@@ -1,5 +1,4 @@
 # Covid FAQ Chatbot
-#### Description: This project aims to create a bot to help people with FAQ (Frequently Asked Questions) about COVID-19. Information taken from security source [WHO](https://www.who.int/) (World Health Organization)
   
 ## Topics
 * [Information](#information)
@@ -15,7 +14,7 @@
 This project was designed to answer questions regarding COVID.
 Information base used: [WHO](https://www.who.int/) (World Health Organization).
 
-Many people do not have up-to-date information about covid. In this case they can chat with this bot as if they would to a close friend.
+Many people don't have up-to-date information about covid. In this case they can chat with this bot as if they would to a close friend.
 You can see a sample conversation in the image below:
 
 You can ask as many questions as you'd like, and whichever ones you want.
@@ -47,7 +46,7 @@ You will need to have a server listening for information on the **/bot** route.
 
 In this project I recommend twilio wich is already in specifications. You can create an free account [here](https://www.twilio.com/).
 
-After that configure the message settings to the router in the project and than you can use it for SMS or whasapp messages.
+After that, configure the message settings to the router in the project and than you can use it for SMS or Whatsapp messages.
 
 The same principle applies to Chatbot with discord, slack or any other.
   
