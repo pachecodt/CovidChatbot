@@ -15,12 +15,12 @@
 This project was designed to answer questions regarding COVID.
 Information base used: [WHO](https://www.who.int/) (World Health Organization).
 
-Many people do not have up-to-date information about covid. In this case you can chat with this bot as if you would do to a close friend.
+Many people do not have up-to-date information about covid. In this case they can chat with this bot as if they would to a close friend.
 You can see a sample conversation in the image below:
 
 You can ask as many questions as you'd like, and whichever ones you want.
 
-If there is not a high probability of identification with the created model, th chat will inform that it could not understand what the person said or to ask the question in a different way or with others words.
+If there is not a high probability of identification with the created model, the bot will inform that it could not understand what the person said or to ask the question in a different way or with others words.
 
 Tech: 
 
@@ -43,9 +43,9 @@ Tech:
 >pip install -r requirements.txt
 >```
 
-You will need to have a server listening for information on the /bot route.
+You will need to have a server listening for information on the '/bot' route.
 
-In this project I recommend twilio wich is already in specifications. You cancreate an free account [here](https://www.twilio.com/).
+In this project I recommend twilio wich is already in specifications. You can create an free account [here](https://www.twilio.com/).
 
 After that configure the message settings to the router in the project and than you can use it for SMS or whasapp messages.
 
