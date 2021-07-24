@@ -43,7 +43,7 @@ Tech:
 >pip install -r requirements.txt
 >```
 
-You will need to have a server listening for information on the '/bot' route.
+You will need to have a server listening for information on the **/bot** route.
 
 In this project I recommend twilio wich is already in specifications. You can create an free account [here](https://www.twilio.com/).
 
@@ -64,8 +64,7 @@ Example:
   
 ### Run
 
-If you have change the model. 
-
+If you have changed the model. 
 Before runing your Chat.py, first, train the model. 
 
 You can train it whenever you want after updating intent.json file.
