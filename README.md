@@ -12,12 +12,12 @@
 
 ### Information
 This project was designed to answer questions regarding COVID.
-Information base used: [WHO](https://www.who.int/) (World Health Organization).
+Information source: [WHO](https://www.who.int/) (World Health Organization).
 
 Many people don't have up-to-date information about covid. In this case they can chat with this bot as if they would to a close friend.
 You can see a sample conversation in the image below:
 
-You can ask as many questions as you'd like, and whichever ones you want.
+You can ask as many questions as you like, and whichever ones you want.
 
 If there is not a high probability of identification with the created model, the bot will inform that it could not understand what the person said or to ask the question in a different way or with others words.
 
@@ -38,7 +38,7 @@ Tech:
 
 
 ### Requirements
->```
+>```bash
 >pip install -r requirements.txt
 >```
 
@@ -56,27 +56,27 @@ Local: After installing the dependencies, you can download [Ngrok](https://ngrok
 
 This way you can exposes your local servers for the world. Use the ngrok link for your bot.
 Example:
->```
+>```bash
 >ngrok http 5000
 >```
 
   
 ### Run
 
-If you have changed the model. 
-Before runing your Chat.py, first, train the model. 
+If you made changes to the model.
+Before runing Chat.py, first you'll have to train the model. 
 
-You can train it whenever you want after updating intent.json file.
+You can train it whenever you want after updating **intent.json** file.
 
 Train:
->```
->python train_chatbot.py
->```
+```python
+python train_chatbot.py
+```
 
 Than run the application 
->```
->python bot.py
->```
+```python
+python bot.py
+```
 
 ### Possible improvements
 
