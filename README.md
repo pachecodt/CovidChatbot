@@ -56,9 +56,9 @@ Local: After installing the dependencies, you can download [Ngrok](https://ngrok
 
 This way you can exposes your local servers for the world. Use the ngrok link for your bot.
 Example:
->```bash
->ngrok http 5000
->```
+```bash
+ngrok http 5000
+```
 
   
 ### Run
@@ -72,7 +72,7 @@ Train:
 
     python train_chatbot.py
 
-Than run the application 
+Run application 
 ```python
 python bot.py
 ```
